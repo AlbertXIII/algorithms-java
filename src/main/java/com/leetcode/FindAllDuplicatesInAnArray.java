@@ -11,7 +11,7 @@ public class FindAllDuplicatesInAnArray {
 	}
 	
 	static public List<Integer> findDuplicates(int[] nums) {
-        List<Integer> dups = new ArrayList();
+        List<Integer> dups = new ArrayList<>();
         if(nums.length == 0) return dups;
         for(int i = 0; i < nums.length; i++){
             int index = Math.abs(nums[i]) - 1;
