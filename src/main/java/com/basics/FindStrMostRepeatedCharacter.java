@@ -24,7 +24,7 @@ public class FindStrMostRepeatedCharacter {
 				key = entry.getKey();
 			}
 		}
-		System.out.println(value);
+		System.out.println(key + " char is the most repeated: " + value);
 		return key;
 		
 	}
