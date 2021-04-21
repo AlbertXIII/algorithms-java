@@ -1,12 +1,16 @@
 package com.leetcode;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class FindAllDuplicatesInAnArray {
 
 	public static void main(String[] args) {
 		System.out.println(findDuplicates(new int[] {4,3,2,7,8,2,3,1})
+				.toString());
+		System.out.println(getDuplicates(new int[] {4,3,2,7,8,2,3,1})
 				.toString());
 	}
 	
@@ -20,5 +24,14 @@ public class FindAllDuplicatesInAnArray {
         }
         return dups;
     }
+	
+	static List<Integer> getDuplicates(int[] nums){
+		List<Integer> dups = new ArrayList<>();
+		Set<Integer> mySet = new HashSet<>();
+		for(int i : nums){
+			if(!mySet.add(i)) dups.add(i);
+		}
+		return dups;
+	}
 
 }
