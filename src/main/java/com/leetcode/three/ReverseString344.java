@@ -13,9 +13,9 @@ public class ReverseString344 {
 		while(l < r) {
 			//save left char in tmp 
 			char tmp = chars[l];
-			//swap left <-> right
+			//swap left <-> right and increment left
 			chars[l++] = chars[r];
-			//swap right for left
+			//swap right for left and decrement right
 			chars[r--] = tmp;
 		}
 		return new String(chars);
