@@ -3,7 +3,7 @@ package com.leetcode.three;
 public class ReverseString344 {
 
 	public static void main(String[] args) {
-		System.out.println(reverseString("halloween"));
+		System.out.println(reverseString("marvelous"));
 	}
 	
 	private static String reverseString(String s){
