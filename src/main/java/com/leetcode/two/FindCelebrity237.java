@@ -1,4 +1,4 @@
-package com.leetcode;
+package com.leetcode.two;
 
 public class FindCelebrity237 {
 
