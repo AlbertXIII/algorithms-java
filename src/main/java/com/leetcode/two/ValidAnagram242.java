@@ -6,7 +6,7 @@ public class ValidAnagram242 {
 
 	public static void main(String[] args) {
 		System.out.println(isAnagram("remy", "emyr"));
-		System.out.println(isAnagramK("remy", "emyr"));
+		System.out.println(isAnagramK("remyzara", "emyrlana"));
 	}
 	
 	private static boolean isAnagram(String s, String t) {
@@ -28,7 +28,7 @@ public class ValidAnagram242 {
 			counts[s.charAt(i) - 'a']++;
 			counts[t.charAt(i) - 'a']--;
 		}
-		
+		System.out.println(Arrays.toString(counts));
 		for(int i : counts) {
 			if(i != 0) return false;
 		}
