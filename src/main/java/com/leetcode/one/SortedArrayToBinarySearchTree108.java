@@ -1,4 +1,4 @@
-package com.leetcode;
+package com.leetcode.one;
 
 public class SortedArrayToBinarySearchTree108 {
 
