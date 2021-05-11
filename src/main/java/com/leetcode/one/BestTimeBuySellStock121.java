@@ -3,10 +3,10 @@ package com.leetcode.one;
 public class BestTimeBuySellStock121 {
 
 	public static void main(String[] args) {
-		System.out.println(maxProfit(new int[] {7, 1, 5, 3, 6 ,4}));
+		System.out.println(maxProfitK(new int[] {7, 1, 5, 3, 6 ,4}));
 	}
 	
-	private static int maxProfit(int[] prices) {
+	private static int maxProfitK(int[] prices) {
 	    
         int max = 0, min = Integer.MAX_VALUE;
         //System.out.println(min);
