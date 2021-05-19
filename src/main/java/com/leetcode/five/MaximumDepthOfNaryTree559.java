@@ -1,10 +1,10 @@
-package com.leetcode;
+package com.leetcode.five;
 
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class MaximumDepthOfNaryTree {
+public class MaximumDepthOfNaryTree559 {
 
 	public static void main(String[] args) {
 		System.out.println();
