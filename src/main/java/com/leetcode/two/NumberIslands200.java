@@ -7,9 +7,9 @@ public class NumberIslands200 {
 				{'1','1','1','1','0'},
 				{'1','1','0','1','0'},
 				{'1','1','0','0','0'},
-				{'0','0','0','0','1'}}; 
+				{'0','0','0','0','1'}};
+				
 		System.out.println(numIslandsK(grid));
-
 	}
 	
 	private static int numIslandsK(char[][] grid) {

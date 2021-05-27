@@ -3,10 +3,11 @@ package com.leetcode.zero;
 public class ReverseInteger7 {
 
 	public static void main(String[] args) {
-		System.out.println(reverse(123));
+		System.out.println(reverseK(123));
+		System.out.println(reverseN(12345));
 	}
 	
-	private static int reverse(int x) {
+	private static int reverseK(int x) {
 		 boolean negative = false;
 	        if(x < 0){
 	            negative = true;
