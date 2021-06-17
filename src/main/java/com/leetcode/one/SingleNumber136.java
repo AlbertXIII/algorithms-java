@@ -6,7 +6,6 @@ public class SingleNumber136 {
 
 	public static void main(String[] args) {
 		System.out.println(singleNumberK(new int[] {5,1,2,1,2}));
-
 	}
 	
 	private static int singleNumberK(int[] nums) {
