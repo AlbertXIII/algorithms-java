@@ -12,14 +12,13 @@ public class RemoveElement27 {
         if(nums == null || nums.length == 0 || val < 0) return -1;
         int index = 0;
         for(int n : nums) {
-        	if(n != val) {
-        		nums[index++] = n;
-        	}
+        	if(n != val) nums[index++] = n;
+        	
         }
         for(int n : nums) {
         	System.out.println(n);
         }
-        System.out.println("size " + nums.length);
+        System.out.println("index " + index);
         return index;
     }
 	
